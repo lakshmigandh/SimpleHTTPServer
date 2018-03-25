@@ -1,2 +1,2 @@
 from subprocess import call
-call(["python", "-m","SimpleHTTPServer","8888"])
+call(["python", "-m","http.server","8888"])
